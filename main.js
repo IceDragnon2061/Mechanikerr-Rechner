@@ -106,60 +106,59 @@ function updateCartTotal() {
 
 
 function showHome() {
-   document.getElementById('h').style.display = "block";
-   document.getElementById('a').style.display = "none";
-   document.getElementById('m').style.display = "none";
-   document.getElementById('k').style.display = "none";
-   document.getElementById('k2').style.display = "none";
-   document.getElementById('s').style.display = "none";
+    document.getElementById('h').style.display = "block";
+    document.getElementById('a').style.display = "none";
+    document.getElementById('m').style.display = "none";
+    document.getElementById('k').style.display = "none";
+    document.getElementById('k2').style.display = "none";
+    document.getElementById('s').style.display = "none";
 }
 
 function showanfahrt() {
-   document.getElementById('h').style.display = "none";
-   document.getElementById('a').style.display = "block";
-   document.getElementById('m').style.display = "none";
-   document.getElementById('k').style.display = "none";
-   document.getElementById('k2').style.display = "none";
-   document.getElementById('s').style.display = "none";
+    document.getElementById('h').style.display = "none";
+    document.getElementById('a').style.display = "block";
+    document.getElementById('m').style.display = "none";
+    document.getElementById('k').style.display = "none";
+    document.getElementById('k2').style.display = "none";
+    document.getElementById('s').style.display = "none";
 }
 
 function showmotorraum() {
-   document.getElementById('h').style.display = "none";
-   document.getElementById('a').style.display = "none";
-   document.getElementById('m').style.display = "block";
-   document.getElementById('k').style.display = "none";
-   document.getElementById('k2').style.display = "none";
-   document.getElementById('s').style.display = "none";
+    document.getElementById('h').style.display = "none";
+    document.getElementById('a').style.display = "none";
+    document.getElementById('m').style.display = "block";
+    document.getElementById('k').style.display = "none";
+    document.getElementById('k2').style.display = "none";
+    document.getElementById('s').style.display = "none";
 }
 
 function showkarroserie() {
-   document.getElementById('h').style.display = "none";
-   document.getElementById('a').style.display = "none";
-   document.getElementById('m').style.display = "none";
-   document.getElementById('k').style.display = "block";
-   document.getElementById('k2').style.display = "none";
-   document.getElementById('s').style.display = "none";
+    document.getElementById('h').style.display = "none";
+    document.getElementById('a').style.display = "none";
+    document.getElementById('m').style.display = "none";
+    document.getElementById('k').style.display = "block";
+    document.getElementById('k2').style.display = "none";
+    document.getElementById('s').style.display = "none";
 }
 
 function showkleinkram() {
-   document.getElementById('h').style.display = "none";
-   document.getElementById('a').style.display = "none";
-   document.getElementById('m').style.display = "none";
-   document.getElementById('k').style.display = "none";
-   document.getElementById('k2').style.display = "block";
-   document.getElementById('s').style.display = "none";
+    document.getElementById('h').style.display = "none";
+    document.getElementById('a').style.display = "none";
+    document.getElementById('m').style.display = "none";
+    document.getElementById('k').style.display = "none";
+    document.getElementById('k2').style.display = "block";
+    document.getElementById('s').style.display = "none";
 }
 
 function showservic() {
-   document.getElementById('h').style.display = "none";
-   document.getElementById('a').style.display = "none";
-   document.getElementById('m').style.display = "none";
-   document.getElementById('k').style.display = "none";
-   document.getElementById('k2').style.display = "none";
-   document.getElementById('s').style.display = "block";
+    document.getElementById('h').style.display = "none";
+    document.getElementById('a').style.display = "none";
+    document.getElementById('m').style.display = "none";
+    document.getElementById('k').style.display = "none";
+    document.getElementById('k2').style.display = "none";
+    document.getElementById('s').style.display = "block";
 }
 
-function start()
-    {
-        document.getElementById("home").click(); // Simulates button click
-    }
+function start() {
+    document.getElementById("home").click(); // Simulates button click
+}
