@@ -65,8 +65,8 @@ function addItemToCart(title, price) {
     var cartItemNames = cartItems.getElementsByClassName('cart-item-title')
     for (var i = 0; i < cartItemNames.length; i++) {
         if (cartItemNames[i].innerText == title) {
-            alert('Der Artikel ist bereits Vorhanden')
-            return
+            document.getElementsByClassName('cart-quantity-input')[i].value++
+                return
         }
     }
     var cartRowContents = `
