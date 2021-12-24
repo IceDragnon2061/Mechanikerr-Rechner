@@ -66,7 +66,13 @@ function addItemToCart(title, price) {
     for (var i = 0; i < cartItemNames.length; i++) {
         if (cartItemNames[i].innerText == title) {
             document.getElementsByClassName('cart-quantity-input')[i].value++
+            
+            if (document.getElementsByClassName('cart-quantity-input')[i].value >= 11) {
+                document.getElementsByClassName("cart-quantity-input")[i].value = 10
                 return
+            }
+            return
+                
         }
     }
     var cartRowContents = `
