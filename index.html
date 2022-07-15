@@ -4,10 +4,10 @@
 <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Mechaniker Rechner</title>
     <link rel="stylesheet" href="style.css" />
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <script src="main.js" async></script>
     <link rel="icon" href="https://upload.wikimedia.org/wikipedia/commons/thumb/6/65/Circle-icons-car.svg/2048px-Circle-icons-car.svg.png" />
 </head>
@@ -15,40 +15,38 @@
 
 
 <body onload="start()">
-
     <div class="container">
-
         <div class="sidebar">
             <h1 id="text">Auswählen</h1>
 
             <div class="auswahl">
-                <button class="ab" id="home" onclick="showHome()" style="border-style: inset">
-            <span> Home </span>
+                <button class="ab" id="home" onclick="show('h')" style="border-style: inset">
+            <span class="tex"> Home </span>
           </button>
-                <button class="ab" id="anfahrt" onclick="showanfahrt()" style="border-style: inset">
-            <span> Anfahrten </span>
+                <button class="ab" id="anfahrt" onclick="show('a')" style="border-style: inset">
+            <span class="tex"> Anfahrten </span>
           </button>
-                <button class="ab" id="motorraum" onclick="showmotorraum()" style="border-style: inset">
-            <span> Motorraum </span>
+                <button class="ab" id="motorraum" onclick="show('m')" style="border-style: inset">
+            <span class="tex"> Motorraum </span>
           </button>
-                <button class="ab" id="karrosserie" onclick="showkarroserie()" style="border-style: inset">
-            <span> Karosserie </span>
+                <button class="ab" id="karrosserie" onclick="show('k')" style="border-style: inset">
+            <span class="tex"> Karosserie </span>
           </button>
-                <button class="ab" id="kleinkram" onclick="showkleinkram()" style="border-style: inset">
-            <span> Kleinkram </span>
+                <button class="ab" id="kleinkram" onclick="show('k2')" style="border-style: inset">
+            <span class="tex"> Kleinkram </span>
           </button>
-                <button class="ab" id="service" onclick="showservic()" style="border-style: inset">
-            <span> Service </span>
+                <button class="ab" id="service" onclick="show('s')" style="border-style: inset">
+            <span class="tex"> Service </span>
           </button>
             </div>
         </div>
-        <div id="h">
+        <div id="h" class="registercard">
             <div class="text">Home</div>
             <div class="awb">
                 <div class="lo">Willkommen zurück Meister</div>
             </div>
         </div>
-        <div id="a">
+        <div id="a" class="registercard">
             <div class="text">Anfahrten</div>
             <div class="awb">
                 <div class="shop-item">
@@ -89,7 +87,7 @@
                 </div>
             </div>
         </div>
-        <div id="m">
+        <div id="m" class="registercard">
             <div class="text">Motorraum</div>
             <div class="awb">
                 <div class="shop-item">
@@ -175,7 +173,7 @@
                 </div>
             </div>
         </div>
-        <div id="k">
+        <div id="k" class="registercard">
             <div class="text">Karosserie</div>
             <div class="awb">
                 <div class="shop-item">
@@ -270,7 +268,7 @@
                 </div>
             </div>
         </div>
-        <div id="k2">
+        <div id="k2" class="registercard">
             <div class="text">Kleinkram</div>
             <div class="awb">
                 <div class="shop-item">
@@ -347,7 +345,7 @@
                 </div>
             </div>
         </div>
-        <div id="s">
+        <div id="s" class="registercard">
             <div class="text">Service</div>
             <div class="awb">
                 <div class="shop-item">
